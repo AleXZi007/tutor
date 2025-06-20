@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f9;
+}
+
+header, footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+.logo, .service img {
+    width: 60px;
+}
+
+h1 {
+    margin: 10px 0 0;
+}
+
+.services, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.service {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.service img {
+    margin-bottom: 10px;
+}
+
+.contact {
+    background: #eef;
+}
